@@ -1,6 +1,6 @@
  let arr = [
    { 
-    picture:'https://images.unsplash.com/photo-1610289307640-e5d7c5e8d9f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    picture:'https://images.unsplash.com/photo-1521737451536-00a86f630f3e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     FullName:'Nelson Terry',
     role:'Web developer',
     post:'40',
