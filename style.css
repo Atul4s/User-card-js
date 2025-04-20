@@ -1,0 +1,191 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Oregano:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 3rem;
+}
+@media (max-width: 992px) {
+    .main{
+      
+        margin-top: 1rem;
+        }
+}
+
+
+.user_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 350px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+
+}
+
+
+.user_card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-pic img{
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    }
+
+    .posting{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 1.8rem;
+padding-bottom: 1rem;
+    }
+
+ 
+
+    
+
+.post{
+        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-family: "National Park", sans-serif;
+        font-size: 10px;
+        font-optical-sizing: auto;
+    }
+
+    .post:hover{
+        color: rgb(10, 10, 232);
+    }
+    .follow{
+        align-items: center;
+        display: flex;
+        flex-direction: column;  
+        font-family: "National Park", sans-serif;
+        font-size: 10px;
+        font-optical-sizing: auto;
+    }
+    .follow:hover{
+        color: rgb(10, 10, 232);
+    }
+
+    .following{
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-family: "National Park", sans-serif;
+        font-size: 10px;
+        font-optical-sizing: auto;
+    }
+    .following:hover{
+        color: rgb(10, 10, 232);
+    }
+    .info{
+        text-align: center;
+        font-family: "Oregano", cursive;
+        font-size: 20px;
+        opacity: .5;
+    }
+
+    .name h1{
+        font-family: "National Park", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+      
+        font-optical-sizing: auto;
+    }
+
+    .role p{
+        text-align: center;
+        font-family: "Oregano", cursive;
+        font-size: 20px;
+    }
+
+    .icons {
+        display: flex;
+        font-size: 1.5rem;
+        gap: 1.5rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icons i{
+        color: rgb(164, 164, 241);
+    }
+
+    .icons i:hover{
+        color: rgb(10, 10, 232);
+    }
+
+
+    .follow-button {
+        background-color: white;
+        color: purple;
+        border: 1px solid purple;
+        padding: 8px 16px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: "National Park", sans-serif;
+        font-weight: 500;
+      
+      }
+      
+      .follow-button:hover {
+        background-color: #4f5ce8; 
+      }
+
+      .work-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 11rem;
+       
+        position: absolute;
+        margin-top: 10px;
+      }
+
+      .staranger{
+        background: #e74c3c;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 0.6em;
+        border-radius: 10px;
+        font-family: "National Park", sans-serif;
+      }
+
+      .hr{
+        background: #0d0c0c;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 0.6em;
+        border-radius: 10px;
+        font-family: "National Park", sans-serif;
+      }
