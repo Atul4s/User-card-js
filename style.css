@@ -39,6 +39,8 @@ margin-top: 3rem;
     margin: 20px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    box-shadow: rgb(83, 83, 76) 0px 0px 50px;
+  
 
 
 }
@@ -52,6 +54,7 @@ margin-top: 3rem;
     height: 200px;
     width: 350px;
     object-fit: cover;
+    box-shadow: rgba(254 240 12) 0px 0px 50px;
     }
 
     .posting{
@@ -61,6 +64,7 @@ flex-direction: row;
 align-items: center;
 gap: 1.8rem;
 padding-bottom: 1rem;
+
     }
 
  
@@ -75,6 +79,7 @@ padding-bottom: 1rem;
         font-family: "National Park", sans-serif;
         font-size: 10px;
         font-optical-sizing: auto;
+        
     }
 
     .post:hover{
@@ -87,6 +92,7 @@ padding-bottom: 1rem;
         font-family: "National Park", sans-serif;
         font-size: 10px;
         font-optical-sizing: auto;
+        
     }
     .follow:hover{
         color: rgb(10, 10, 232);
@@ -109,20 +115,27 @@ padding-bottom: 1rem;
         font-family: "Oregano", cursive;
         font-size: 20px;
         opacity: .5;
+        
     }
 
+
+    
     .name h1{
         font-family: "National Park", sans-serif;
         font-size: 2.5rem;
         font-weight: 500;
-      
+        color: rgba(120, 124, 123, 0.5568627451);
+        filter: drop-shadow(5px 5px 5px rgba(217, 234, 40, 0.726));
         font-optical-sizing: auto;
+        
     }
 
     .role p{
         text-align: center;
         font-family: "Oregano", cursive;
         font-size: 20px;
+        
+       
     }
 
     .icons {
@@ -134,7 +147,9 @@ padding-bottom: 1rem;
     }
 
     .icons i{
-        color: rgb(164, 164, 241);
+        
+        color: rgba(128, 126, 245, 0.667);
+        filter: drop-shadow(5px 5px 5px rgba(1, 1, 1, 0.2));
     }
 
     .icons i:hover{
@@ -160,6 +175,11 @@ padding-bottom: 1rem;
         background-color: #4f5ce8; 
       }
 
+      .follow-button:active{
+        scale: 0.9;
+
+      }
+
       .work-info{
         display: flex;
         flex-direction: row;
@@ -178,6 +198,7 @@ padding-bottom: 1rem;
         font-size: 0.6em;
         border-radius: 10px;
         font-family: "National Park", sans-serif;
+        
       }
 
       .hr{
@@ -188,4 +209,5 @@ padding-bottom: 1rem;
         font-size: 0.6em;
         border-radius: 10px;
         font-family: "National Park", sans-serif;
+        
       }
