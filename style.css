@@ -14,10 +14,11 @@
 }
 
 .main{
+   min-height: 100vh;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-margin-top: 3rem;
+align-items: center;
 }
 @media (max-width: 992px) {
     .main{
